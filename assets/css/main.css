@@ -2262,6 +2262,7 @@ input, select, textarea {
 			padding: 0.65em;
 			margin: 0 0 2em 0;
 			cursor: default;
+			/*height: 40%;*/
 		}
 
 			.icon.major:before {
@@ -2406,8 +2407,12 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			height: 40%;
+			margin: 3em 0 4em 0;
 			width: 100%;
+			/*display: flex;*/
+			justify-content: center;
+			align-items: center;
 		}
 
 			.image.main img {
@@ -2816,7 +2821,7 @@ input, select, textarea {
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
-			margin-top: 3em;
+			margin-top: 8em;
 			padding: 0;
 		}
 
